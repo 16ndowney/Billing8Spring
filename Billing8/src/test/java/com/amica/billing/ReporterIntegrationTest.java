@@ -40,10 +40,12 @@ public class ReporterIntegrationTest {
 					? new FileReader(invoicesFile) : null;
 		) {
 			Reporter reporter = suffix != null
-				? new Reporter(customerReader, invoiceReader, format)
+				? new Reporter(customerReader, invoiceReader)
 				: ( properties != null
 					? new Reporter(new PropertiesConfiguration(properties))
 					: new Reporter());
+				
+				
 			
 			assertThat(reporter.getInvoicesForCustomer(CUSTOMER_NAME),
 					hasSize(3));
@@ -88,7 +90,7 @@ public class ReporterIntegrationTest {
 					? new FileReader(invoicesFile) : null;
 		) {
 			Reporter reporter = suffix != null
-				? new Reporter(customerReader, invoiceReader, format)
+				? new Reporter(customerReader, invoiceReader)
 				: ( properties != null
 					? new Reporter(new PropertiesConfiguration(properties))
 					: new Reporter());

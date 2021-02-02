@@ -53,8 +53,7 @@ public class ReporterTest {
 		MockParser.customers = Stream.of(GOOD_CUSTOMERS);
 		MockParser.invoices = Stream.of(GOOD_INVOICES);
 		
-		reporter = new Reporter(customerReader, invoiceReader, 
-				Parser.Format.DEFAULT);
+		reporter = new Reporter(customerReader, invoiceReader);
 	}
 	
 	@Test
