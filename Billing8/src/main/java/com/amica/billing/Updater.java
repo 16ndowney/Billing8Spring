@@ -10,11 +10,18 @@ import java.util.TreeMap;
 import java.util.logging.Level;
 import java.util.stream.Collectors;
 
+import javax.annotation.PostConstruct;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import com.amica.acm.configuration.component.ComponentConfigurationsManager;
 import com.amica.billing.parse.Producer;
 import com.amica.billing.parse.Parser.Format;
 import com.amica.escm.configuration.api.Configuration;
 
+import lombok.Getter;
+import lombok.Setter;
 import lombok.extern.java.Log;
 
 /**
@@ -23,6 +30,7 @@ import lombok.extern.java.Log;
  * @author Will Provost
  */
 @Log
+@Component
 public class Updater {
 
 	public static final String CONFIGURATION_NAME = "Billing";
@@ -33,6 +41,10 @@ public class Updater {
 
 	private String customersFilename;
 	private String invoicesFilename;
+	
+	@Autowired
+	@Getter
+	@Setter
 	private Producer parser;
 	
 	private Map<String,Customer> customers;
@@ -44,11 +56,8 @@ public class Updater {
 	 * using the configuration manager.
 	 */
 	public Updater(Configuration configuration) {
-		
 		customersFilename = configuration.getString(CUSTOMER_FILE_PROPERTY);
 		invoicesFilename = configuration.getString(INVOICE_FILE_PROPERTY);
-		parser = ParserFactory.createParser(configuration, Format.DEFAULT);
-		load();
 	}
 	
 	/**
@@ -63,24 +72,22 @@ public class Updater {
 	/**
 	 * Customer and invoice data is found in files of the given names.
 	 */	
-	public Updater(String customersFilename, String invoicesFilename,
-			Format format) {
+	public Updater(String customersFilename, String invoicesFilename) {
 		this.customersFilename = customersFilename;
 		this.invoicesFilename = invoicesFilename;
-		this.parser = ParserFactory.createParser(format);
-		load();
 	}
 	
 	/**
 	 * Customer and invoice data is found in files of the given names.
 	 */	
-	public Updater(String customersFilename, String invoicesFilename) {
-		this(customersFilename, invoicesFilename, Format.DEFAULT);
-	}
+//	public Updater(String customersFilename, String invoicesFilename) {
+//		this(customersFilename, invoicesFilename, Format.DEFAULT);
+//	}
 	
 	/**
 	 * Load data from files using the configured parser.
 	 */
+	@PostConstruct
 	public void load() {
 		try (
 			FileReader customerReader = new FileReader(customersFilename);

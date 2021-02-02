@@ -1,0 +1,11 @@
+Invoices for Myrna Loy
+
+1. Invoice 661
+    1. Amount: $269.00
+    2. Date: 10/12/2020
+    3. Paid: 11/3/2020
+
+2. Invoice 958
+    1. Amount: $40.00
+    2. Date: 11/15/2020
+    3. Paid: Outstanding

@@ -1,0 +1,119 @@
+All invoices, by customer
+
+* Customer: Chet Atkins
+  * Invoice 104
+    * Amount: $500.00
+    * Date: 8/23/2020
+    * Paid: 9/7/2020
+  * Invoice 111
+    * Amount: $1330.00
+    * Date: 10/1/2020
+    * Paid: 10/20/2020
+
+* Customer: Glen Campbell
+  * Invoice 107
+    * Amount: $800.00
+    * Date: 9/15/2020
+    * Paid: Outstanding
+  * Invoice 121
+    * Amount: $1105.00
+    * Date: 11/15/2020
+    * Paid: Outstanding
+
+* Customer: June Carter
+  * Invoice 115
+    * Amount: $1750.00
+    * Date: 11/10/2020
+    * Paid: 11/10/2020
+
+* Customer: Johnny Cash
+  * Invoice 124
+    * Amount: $750.00
+    * Date: 11/30/2020
+    * Paid: Outstanding
+
+* Customer: Roy Clark
+  * Invoice 108
+    * Amount: $1345.00
+    * Date: 10/12/2020
+    * Paid: 11/3/2020
+  * Invoice 119
+    * Amount: $200.00
+    * Date: 11/15/2020
+    * Paid: Outstanding
+
+* Customer: Patsy Cline
+  * Invoice 114
+    * Amount: $1200.00
+    * Date: 10/15/2020
+    * Paid: 11/1/2020
+  * Invoice 116
+    * Amount: $660.00
+    * Date: 11/12/2020
+    * Paid: Outstanding
+
+* Customer: John Hiatt
+  * Invoice 101
+    * Amount: $1000.00
+    * Date: 7/10/2020
+    * Paid: 10/1/2020
+  * Invoice 110
+    * Amount: $1000.00
+    * Date: 8/26/2020
+    * Paid: 10/1/2020
+
+* Customer: Janis Joplin
+  * Invoice 102
+    * Amount: $170.00
+    * Date: 7/12/2020
+    * Paid: Outstanding
+  * Invoice 106
+    * Amount: $170.00
+    * Date: 9/12/2020
+    * Paid: Outstanding
+  * Invoice 117
+    * Amount: $170.00
+    * Date: 11/12/2020
+    * Paid: Outstanding
+
+* Customer: Patty Larkin
+  * Invoice 113
+    * Amount: $1000.00
+    * Date: 10/12/2020
+    * Paid: 11/30/2020
+  * Invoice 118
+    * Amount: $170.00
+    * Date: 11/12/2020
+    * Paid: Outstanding
+
+* Customer: Buck Owens
+  * Invoice 103
+    * Amount: $345.00
+    * Date: 7/25/2020
+    * Paid: 9/1/2020
+  * Invoice 105
+    * Amount: $305.00
+    * Date: 9/2/2020
+    * Paid: 11/30/2020
+
+* Customer: Bonnie Raitt
+  * Invoice 123
+    * Amount: $1500.00
+    * Date: 11/26/2020
+    * Paid: 11/30/2020
+
+* Customer: Jerry Reed
+  * Invoice 109
+    * Amount: $1200.00
+    * Date: 9/24/2020
+    * Paid: 10/3/2020
+  * Invoice 122
+    * Amount: $1440.00
+    * Date: 11/26/2020
+    * Paid: Outstanding
+
+* Customer: Lucinda Williams
+  * Invoice 112
+    * Amount: $1000.00
+    * Date: 10/10/2020
+    * Paid: 10/20/2020

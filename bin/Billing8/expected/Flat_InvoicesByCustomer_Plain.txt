@@ -1,0 +1,119 @@
+All invoices, by customer
+
+Customer: Skippy Asta
+  Invoice 550
+    Amount: $34.00
+    Date: 9/12/2020
+    Paid: Outstanding
+  Invoice 746
+    Amount: $34.00
+    Date: 7/12/2020
+    Paid: Outstanding
+  Invoice 813
+    Amount: $34.00
+    Date: 11/12/2020
+    Paid: Outstanding
+
+Customer: Edward Brophy
+  Invoice 523
+    Amount: $266.00
+    Date: 10/1/2020
+    Paid: 10/20/2020
+  Invoice 914
+    Amount: $100.00
+    Date: 8/23/2020
+    Paid: 9/7/2020
+
+Customer: Edward Ellis
+  Invoice 150
+    Amount: $350.00
+    Date: 11/10/2020
+    Paid: 11/10/2020
+
+Customer: Minna Gombell
+  Invoice 179
+    Amount: $300.00
+    Date: 11/26/2020
+    Paid: 11/30/2020
+
+Customer: Porter Hall
+  Invoice 133
+    Amount: $200.00
+    Date: 8/26/2020
+    Paid: 10/1/2020
+  Invoice 419
+    Amount: $200.00
+    Date: 7/10/2020
+    Paid: 10/1/2020
+
+Customer: Myrna Loy
+  Invoice 661
+    Amount: $269.00
+    Date: 10/12/2020
+    Paid: 11/3/2020
+  Invoice 958
+    Amount: $40.00
+    Date: 11/15/2020
+    Paid: Outstanding
+
+Customer: Natalie Moorhead
+  Invoice 251
+    Amount: $61.00
+    Date: 9/2/2020
+    Paid: 11/30/2020
+  Invoice 558
+    Amount: $69.00
+    Date: 7/25/2020
+    Paid: 9/1/2020
+
+Customer: Maureen O'Sullivan
+  Invoice 142
+    Amount: $132.00
+    Date: 11/12/2020
+    Paid: Outstanding
+  Invoice 223
+    Amount: $240.00
+    Date: 10/15/2020
+    Paid: 11/1/2020
+
+Customer: Nat Pendleton
+  Invoice 294
+    Amount: $200.00
+    Date: 10/10/2020
+    Paid: 10/20/2020
+
+Customer: William Powell
+  Invoice 764
+    Amount: $150.00
+    Date: 11/30/2020
+    Paid: Outstanding
+
+Customer: Bert Roach
+  Invoice 683
+    Amount: $240.00
+    Date: 9/24/2020
+    Paid: 10/3/2020
+  Invoice 853
+    Amount: $288.00
+    Date: 11/26/2020
+    Paid: Outstanding
+
+Customer: Cesar Romero
+  Invoice 671
+    Amount: $221.00
+    Date: 11/15/2020
+    Paid: Outstanding
+  Invoice 795
+    Amount: $160.00
+    Date: 9/15/2020
+    Paid: Outstanding
+
+Customer: Henry Wadsworth
+  Invoice 225
+    Amount: $200.00
+    Date: 10/12/2020
+    Paid: 11/30/2020
+  Invoice 957
+    Amount: $34.00
+    Date: 11/12/2020
+    Paid: Outstanding

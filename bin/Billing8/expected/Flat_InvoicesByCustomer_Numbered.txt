@@ -1,0 +1,119 @@
+All invoices, by customer
+
+1. Customer: Skippy Asta
+  1. Invoice 550
+    1. Amount: $34.00
+    2. Date: 9/12/2020
+    3. Paid: Outstanding
+  2. Invoice 746
+    1. Amount: $34.00
+    2. Date: 7/12/2020
+    3. Paid: Outstanding
+  3. Invoice 813
+    1. Amount: $34.00
+    2. Date: 11/12/2020
+    3. Paid: Outstanding
+
+2. Customer: Edward Brophy
+  1. Invoice 523
+    1. Amount: $266.00
+    2. Date: 10/1/2020
+    3. Paid: 10/20/2020
+  2. Invoice 914
+    1. Amount: $100.00
+    2. Date: 8/23/2020
+    3. Paid: 9/7/2020
+
+3. Customer: Edward Ellis
+  1. Invoice 150
+    1. Amount: $350.00
+    2. Date: 11/10/2020
+    3. Paid: 11/10/2020
+
+4. Customer: Minna Gombell
+  1. Invoice 179
+    1. Amount: $300.00
+    2. Date: 11/26/2020
+    3. Paid: 11/30/2020
+
+5. Customer: Porter Hall
+  1. Invoice 133
+    1. Amount: $200.00
+    2. Date: 8/26/2020
+    3. Paid: 10/1/2020
+  2. Invoice 419
+    1. Amount: $200.00
+    2. Date: 7/10/2020
+    3. Paid: 10/1/2020
+
+6. Customer: Myrna Loy
+  1. Invoice 661
+    1. Amount: $269.00
+    2. Date: 10/12/2020
+    3. Paid: 11/3/2020
+  2. Invoice 958
+    1. Amount: $40.00
+    2. Date: 11/15/2020
+    3. Paid: Outstanding
+
+7. Customer: Natalie Moorhead
+  1. Invoice 251
+    1. Amount: $61.00
+    2. Date: 9/2/2020
+    3. Paid: 11/30/2020
+  2. Invoice 558
+    1. Amount: $69.00
+    2. Date: 7/25/2020
+    3. Paid: 9/1/2020
+
+8. Customer: Maureen O'Sullivan
+  1. Invoice 142
+    1. Amount: $132.00
+    2. Date: 11/12/2020
+    3. Paid: Outstanding
+  2. Invoice 223
+    1. Amount: $240.00
+    2. Date: 10/15/2020
+    3. Paid: 11/1/2020
+
+9. Customer: Nat Pendleton
+  1. Invoice 294
+    1. Amount: $200.00
+    2. Date: 10/10/2020
+    3. Paid: 10/20/2020
+
+10. Customer: William Powell
+  1. Invoice 764
+    1. Amount: $150.00
+    2. Date: 11/30/2020
+    3. Paid: Outstanding
+
+11. Customer: Bert Roach
+  1. Invoice 683
+    1. Amount: $240.00
+    2. Date: 9/24/2020
+    3. Paid: 10/3/2020
+  2. Invoice 853
+    1. Amount: $288.00
+    2. Date: 11/26/2020
+    3. Paid: Outstanding
+
+12. Customer: Cesar Romero
+  1. Invoice 671
+    1. Amount: $221.00
+    2. Date: 11/15/2020
+    3. Paid: Outstanding
+  2. Invoice 795
+    1. Amount: $160.00
+    2. Date: 9/15/2020
+    3. Paid: Outstanding
+
+13. Customer: Henry Wadsworth
+  1. Invoice 225
+    1. Amount: $200.00
+    2. Date: 10/12/2020
+    3. Paid: 11/30/2020
+  2. Invoice 957
+    1. Amount: $34.00
+    2. Date: 11/12/2020
+    3. Paid: Outstanding

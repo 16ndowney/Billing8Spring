@@ -1,0 +1,53 @@
+Customers in descending order of total business
+
+1. Customer: Bert Roach
+    1. Terms: CREDIT_30
+    2. Volume: 528.0
+
+2. Customer: Porter Hall
+    1. Terms: CREDIT_90
+    2. Volume: 400.0
+
+3. Customer: Cesar Romero
+    1. Terms: CREDIT_60
+    2. Volume: 381.0
+
+4. Customer: Maureen O'Sullivan
+    1. Terms: CREDIT_30
+    2. Volume: 372.0
+
+5. Customer: Edward Brophy
+    1. Terms: CREDIT_30
+    2. Volume: 366.0
+
+6. Customer: Edward Ellis
+    1. Terms: CASH
+    2. Volume: 350.0
+
+7. Customer: Myrna Loy
+    1. Terms: CREDIT_60
+    2. Volume: 309.0
+
+8. Customer: Minna Gombell
+    1. Terms: CREDIT_30
+    2. Volume: 300.0
+
+9. Customer: Henry Wadsworth
+    1. Terms: CREDIT_30
+    2. Volume: 234.0
+
+10. Customer: Nat Pendleton
+    1. Terms: CREDIT_30
+    2. Volume: 200.0
+
+11. Customer: William Powell
+    1. Terms: CASH
+    2. Volume: 150.0
+
+12. Customer: Natalie Moorhead
+    1. Terms: CREDIT_60
+    2. Volume: 130.0
+
+13. Customer: Skippy Asta
+    1. Terms: CREDIT_90
+    2. Volume: 102.0

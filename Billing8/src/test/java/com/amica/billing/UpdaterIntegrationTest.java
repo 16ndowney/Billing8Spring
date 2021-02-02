@@ -40,6 +40,7 @@ public class UpdaterIntegrationTest {
 	
 	private Updater updaterExplicit;
 	private Updater updaterConfigured;
+	private ParserFactory factory= new ParserFactory();
 	
 	@Before
 	public void setUp() throws IOException {
@@ -53,7 +54,10 @@ public class UpdaterIntegrationTest {
 			
 		updaterExplicit = new Updater
 			(STAGE_FOLDER + "/" + CUSTOMER_FILE,
-				STAGE_FOLDER + "/" + INVOICE_FILE, Format.JSON);
+				STAGE_FOLDER + "/" + INVOICE_FILE);
+		
+		updaterExplicit.setParser(factory.createParser(Parser.Format.JSON));
+		updaterExplicit.load();
 
 		Properties properties = new Properties();
 		properties.put(Updater.CUSTOMER_FILE_PROPERTY, 
@@ -64,6 +68,8 @@ public class UpdaterIntegrationTest {
 				JSONParser.class.getName());
 		updaterConfigured = new Updater
 				(new PropertiesConfiguration(properties));
+		updaterConfigured.setParser(factory.createParser(Parser.Format.JSON));
+		updaterConfigured.load();
 	}
 	
 	@After
