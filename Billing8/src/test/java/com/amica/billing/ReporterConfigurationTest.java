@@ -11,8 +11,14 @@ import java.util.SortedSet;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import com.amica.billing.Reporter.CustomerWithVolume;
+
+@RunWith(SpringRunner.class)
+@ContextConfiguration(classes=InvoicePayment.class)
 public class ReporterConfigurationTest {
 
 	public static final String INPUT_FOLDER = "src/test/resources/data";
