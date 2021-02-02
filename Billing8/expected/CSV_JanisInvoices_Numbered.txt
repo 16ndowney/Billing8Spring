@@ -1,0 +1,16 @@
+Invoices for Janis Joplin
+
+1. Invoice 102
+    1. Amount: $170.00
+    2. Date: 7/12/2020
+    3. Paid: Outstanding
+
+2. Invoice 106
+    1. Amount: $170.00
+    2. Date: 9/12/2020
+    3. Paid: Outstanding
+
+3. Invoice 117
+    1. Amount: $170.00
+    2. Date: 11/12/2020
+    3. Paid: Outstanding

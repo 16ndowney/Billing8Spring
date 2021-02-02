@@ -1,0 +1,31 @@
+Overdue invoices
+
+1. Invoice 102
+    1. Customer: Janis Joplin
+    2. Amount: $170.00
+    3. Date: 7/12/2020
+    4. Paid: Outstanding
+
+2. Invoice 105
+    1. Customer: Buck Owens
+    2. Amount: $305.00
+    3. Date: 9/2/2020
+    4. Paid: 11/30/2020
+
+3. Invoice 107
+    1. Customer: Glen Campbell
+    2. Amount: $800.00
+    3. Date: 9/15/2020
+    4. Paid: Outstanding
+
+4. Invoice 113
+    1. Customer: Patty Larkin
+    2. Amount: $1000.00
+    3. Date: 10/12/2020
+    4. Paid: 11/30/2020
+
+5. Invoice 124
+    1. Customer: Johnny Cash
+    2. Amount: $750.00
+    3. Date: 11/30/2020
+    4. Paid: Outstanding

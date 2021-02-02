@@ -1,0 +1,53 @@
+Customers in descending order of total business
+
+Customer: Jerry Reed
+    Terms: CREDIT_30
+    Volume: 2640.0
+
+Customer: John Hiatt
+    Terms: CREDIT_90
+    Volume: 2000.0
+
+Customer: Glen Campbell
+    Terms: CREDIT_60
+    Volume: 1905.0
+
+Customer: Patsy Cline
+    Terms: CREDIT_30
+    Volume: 1860.0
+
+Customer: Chet Atkins
+    Terms: CREDIT_30
+    Volume: 1830.0
+
+Customer: June Carter
+    Terms: CASH
+    Volume: 1750.0
+
+Customer: Roy Clark
+    Terms: CREDIT_60
+    Volume: 1545.0
+
+Customer: Bonnie Raitt
+    Terms: CREDIT_30
+    Volume: 1500.0
+
+Customer: Patty Larkin
+    Terms: CREDIT_30
+    Volume: 1170.0
+
+Customer: Lucinda Williams
+    Terms: CREDIT_30
+    Volume: 1000.0
+
+Customer: Johnny Cash
+    Terms: CASH
+    Volume: 750.0
+
+Customer: Buck Owens
+    Terms: CREDIT_60
+    Volume: 650.0
+
+Customer: Janis Joplin
+    Terms: CREDIT_90
+    Volume: 510.0
